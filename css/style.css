@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 90vw;
+}
+.toyota{
+    background-image: url("../img/toyota.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    flex: 0.5;
+    position: relative;
+    transition: all 0.5s ease-in;
+    
+}
+.mitsubishi{
+    display: block;
+    background-image: url("../img/mitsubishi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    flex: 0.5;
+    position: relative;
+    transition: all 0.7s ease-in;
+}
+.ford{display: block;
+    background-image: url("../img/ford.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    flex: 0.5;
+    position: relative;
+    transition: all 0.7s ease-in;
+}
+.dodge{display: block;
+    background-image: url("../img/dodge.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    flex: 0.5;
+    position: relative;
+    transition: all 0.7s ease-in;
+}
+.bmw{display: block;
+    background-image: url("../img/bmw.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    flex: 0.5;
+    position: relative;
+    transition: all 0.7s ease-in;
+}
+.toyota.active{
+    flex: 5;
+}
+.ford.active{
+    flex: 5;
+}
+.dodge.active{
+    flex: 5;
+}
+.mitsubishi.active{
+    flex: 5;
+}
+.bmw.active{
+    flex: 5;
+}
